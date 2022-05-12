@@ -10,10 +10,8 @@ class Product extends Model
 {
     use HasFactory;
     protected $guarded=[];
-    // protected $casts = [
-    //     'created_at' => 'datetime:d-M-y',
-    //     'updated_at' => 'datetime:d-M-y',
-    // ];
+
+    protected $table = 'tbl_products_info';
 
     public static function addProduct(array $data){
 

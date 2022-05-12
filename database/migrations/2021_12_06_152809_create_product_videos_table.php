@@ -13,7 +13,7 @@ class CreateProductVideosTable extends Migration
      */
     public function up()
     {
-        Schema::create('product_videos', function (Blueprint $table) {
+        Schema::create('tbl_product_videos_info', function (Blueprint $table) {
             $table->id();
             $table->integer('product_id');
             $table->string('attachment')->nullable();
@@ -28,6 +28,6 @@ class CreateProductVideosTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('product_videos');
+        Schema::dropIfExists('tbl_product_videos_info');
     }
 }

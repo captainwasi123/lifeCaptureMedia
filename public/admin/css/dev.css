@@ -1,0 +1,36 @@
+.profile_info .profile_info_iner .profile_author_name {
+    padding: 10px 10px !important;
+}
+.profile_info .profile_info_iner h5 {
+    font-size: 18px !important;
+    margin-bottom: 0 !important;
+}
+.profile_info .profile_info_iner p {
+    font-size: 12px !important;
+}
+.profile_info:hover .profile_info_iner {
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+}
+.theme_bg_1 {
+    background: #ed8123 !important;
+}
+.btn_1 {
+    background-color: #a51e22 !important;
+    border: 1px solid #a51e22 !important;
+}
+.btn_1:hover {
+    background-color: #fff !important;
+    border: 1px solid #a51e22 !important;
+    color: #a51e22 !important;
+    font-weight: bold;
+}
+.header_iner {
+    background: #ed8123;
+}
+.main_content.large_header_bg::before {
+    background: #ed8123;
+}
+.icon_menu .ti{
+    margin: 10px;
+    margin-top: 5px;
+}
