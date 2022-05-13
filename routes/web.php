@@ -14,19 +14,26 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+ return view('welcome');
 });
 
 
 // Admin Panel
-    Route::prefix('admin')->namespace('admin')->group(function(){
-        Route::get('/login', 'authController@login')->name('admin.login');
-        Route::post('/login', 'authController@loginAttempt');
-        Route::get('/logout', 'authController@logout')->name('admin.logout');
+ Route::prefix('admin')->namespace('admin')->group(function(){
+  Route::get('/login', 'authController@login')->name('admin.login');
+  Route::post('/login', 'authController@loginAttempt');
+  Route::get('/logout', 'authController@logout')->name('admin.logout');
 
-        //Authenticated
-            Route::middleware('adminAuth')->group(function(){
-                //Dashboard
-                Route::get('/', 'adminController@index')->name('admin.index');
-            });
-    });
+  //Authenticated
+   Route::middleware('adminAuth')->group(function(){
+    //Dashboard
+     Route::get('/', 'adminController@index')->name('admin.index');
+
+    //Orders
+     Route::prefix('orders')->group(function(){
+      Route::get('pending', 'orderController@pending')->name('admin.order.pending');
+      Route::get('delivered', 'orderController@delivered')->name('admin.order.delivered');
+      Route::get('cancelled', 'orderController@cancelled')->name('admin.order.cancelled');
+     });
+   });
+ });

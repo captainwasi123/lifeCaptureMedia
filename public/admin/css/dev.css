@@ -1,5 +1,9 @@
 .profile_info .profile_info_iner .profile_author_name {
     padding: 10px 10px !important;
+    background: #a51e22 !important;
+}
+.profile_info .profile_info_iner::before {
+    border-color: transparent transparent #a51e22 transparent;
 }
 .profile_info .profile_info_iner h5 {
     font-size: 18px !important;
@@ -12,7 +16,7 @@
     box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
 }
 .theme_bg_1 {
-    background: #ed8123 !important;
+    background: #01519c !important;
 }
 .btn_1 {
     background-color: #a51e22 !important;
@@ -25,12 +29,50 @@
     font-weight: bold;
 }
 .header_iner {
-    background: #ed8123;
+    background: #03519c;
 }
 .main_content.large_header_bg::before {
-    background: #ed8123;
+    background: #03519c;
 }
 .icon_menu .ti{
     margin: 10px;
     margin-top: 5px;
+}
+
+.dataTables_paginate{
+    float: right;
+
+}
+.dataTables_paginate .paginate_button {
+    padding: 8px 10px !important;
+    cursor: pointer;
+}
+.dataTables_paginate .paginate_button.disabled {
+    cursor: context-menu;
+}
+.dataTables_paginate .paginate_button.disabled:hover {
+    background-color: #777 !important;
+}
+.dataTables_paginate .paginate_button.current {
+    cursor: context-menu;
+}
+.dataTables_paginate a.current {
+    background: #03519c !important;
+}
+.dataTables_paginate a:hover {
+    background: #03519c !important;
+}
+.btn-primary {
+    background-color: #03519c;
+    border-color: #03519c;
+    color: #fff !important;
+}
+.btn-primary:hover {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+.btn-danger {
+    background-color: #a51e22;
+    border-color: #a51e22;
+    color: #fff !important;
 }

@@ -1,77 +1,8 @@
 @extends('admin.includes.master')
-@section('title', 'Dashboard')
+@section('title', 'Pending | Orders')
 @section('content')
     <div class="container-fluid p-0 ">
         <div class="row ">
-            <div class="col-lg-12">
-                <div class="single_element">
-                    <div class="quick_activity">
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="quick_activity_wrap">
-                                    <!-- single_quick_activity  -->
-                                    <div class="single_quick_activity">
-                                        <div class="count_content">
-                                            <p>Orders</p>
-                                            <h3><span class="counter">156</span> </h3>
-                                        </div>
-                                        <a href="#" class="notification_btn">Total</a>
-                                        <div id="bar1" class="barfiller">
-                                            <div class="tipWrap">
-                                                <span class="tip"></span>
-                                            </div>
-                                            <span class="fill" data-percentage="100"></span>
-                                        </div>
-                                    </div>
-                                    <!-- single_quick_activity  -->
-                                    <div class="single_quick_activity">
-                                        <div class="count_content">
-                                            <p>Orders</p>
-                                            <h3><span class="counter">15</span> </h3>
-                                        </div>
-                                        <a href="#" class="notification_btn yellow_btn">Pending</a>
-                                        <div id="bar2" class="barfiller">
-                                            <div class="tipWrap">
-                                                <span class="tip"></span>
-                                            </div>
-                                            <span class="fill" data-percentage="10"></span>
-                                        </div>
-                                    </div>
-                                    <!-- single_quick_activity  -->
-                                    <div class="single_quick_activity">
-                                        <div class="count_content">
-                                            <p>Users</p>
-                                            <h3><span class="counter">50</span> </h3>
-                                        </div>
-                                        <a href="#" class="notification_btn green_btn">Total</a>
-                                        <div id="bar3" class="barfiller">
-                                            <div class="tipWrap">
-                                                <span class="tip"></span>
-                                            </div>
-                                            <span class="fill" data-percentage="100"></span>
-                                        </div>
-                                    </div>
-                                    <!-- single_quick_activity  -->
-                                    <div class="single_quick_activity">
-                                        <div class="count_content">
-                                            <p>Users</p>
-                                            <h3><span class="counter">46</span></h3>
-                                        </div>
-                                        <a href="#" class="notification_btn violate_btn">Active</a>
-                                        <div id="bar4" class="barfiller">
-                                            <div class="tipWrap">
-                                                <span class="tip"></span>
-                                            </div>
-                                            <span class="fill" data-percentage="90"></span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
             <div class="col-lg-12">
                 <div class="white_card card_height_100 mb_30 QA_section">
                     <div class="white_card_header">
@@ -97,6 +28,7 @@
                                         <th scope="col">Total Amount</th>
                                         <th scope="col">Status</th>
                                         <th scope="col">Order at</th>
+                                        <th scope="col">Action</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -111,6 +43,14 @@
                                         <td>$50</td>
                                         <td><span class="badge badge-primary">Pending</span></td>
                                         <td class="nowrap">13-May-2022 12:14 AM</td>
+                                        <td>
+                                            <a href="javascript:void(0)" class="btn btn-sm btn-danger">
+                                                &nbsp;<i class="fa fa-times"></i>&nbsp;
+                                            </a>
+                                            <a href="javascript:void(0)" class="btn btn-sm btn-primary">
+                                                <i class="fa fa-check"></i>
+                                            </a>
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td>2</td>
@@ -222,17 +162,22 @@
                                     </tr>
                                 </tbody>
                             </table>
+                            <div class="dataTables_paginate">
+                                <a class="paginate_button disabled">
+                                    <i class="ti-arrow-left"></i>
+                                </a>
+                                <span>
+                                    <a class="paginate_button current">1</a>
+                                    <a class="paginate_button ">2</a>
+                                </span>
+                                <a class="paginate_button">
+                                    <i class="ti-arrow-right"></i>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-@endsection
-@section('addScript')
-    <script src="{{URL::to('/public/admin')}}/vendors/chart_am/core.js"></script>
-    <script src="{{URL::to('/public/admin')}}/vendors/chart_am/charts.js"></script>
-    <script src="{{URL::to('/public/admin')}}/vendors/chart_am/animated.js"></script>
-    <script src="{{URL::to('/public/admin')}}/vendors/chart_am/kelly.js"></script>
-    <script src="{{URL::to('/public/admin')}}/vendors/chart_am/chart-custom.js"></script>
 @endsection

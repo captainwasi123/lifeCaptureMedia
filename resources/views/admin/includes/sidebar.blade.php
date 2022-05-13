@@ -25,9 +25,9 @@
                   <span>Orders</span>
                 </a>
                 <ul>
-                  <li><a href="">Pending</a></li>
-                  <li><a href="">Delivered</a></li>
-                  <li><a href="">Cancelled</a></li>
+                  <li><a href="{{route('admin.order.pending')}}">Pending</a></li>
+                  <li><a href="{{route('admin.order.delivered')}}">Delivered</a></li>
+                  <li><a href="{{route('admin.order.cancelled')}}">Cancelled</a></li>
                 </ul>
               </li>
             <li class="">
