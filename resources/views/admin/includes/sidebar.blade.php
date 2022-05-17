@@ -39,12 +39,12 @@
                 <span>Users</span>
               </a>
               <ul>
-                  <li><a href="">Active</a></li>
-                  <li><a href="">Blocked</a></li>
+                  <li><a href="{{route('admin.users.active')}}">Active</a></li>
+                  <li><a href="{{route('admin.users.blocked')}}">Blocked</a></li>
               </ul>
             </li>
             <li class="mm-active">
-              <a href="{{route('admin.index')}}"  aria-expanded="false">
+              <a href="{{route('admin.logout')}}"  aria-expanded="false">
               <!-- <i class="fas fa-th"></i> -->
               <div class="icon_menu">
                   <i class="ti ti-lock"></i>

@@ -35,5 +35,11 @@ Route::get('/', function () {
       Route::get('delivered', 'orderController@delivered')->name('admin.order.delivered');
       Route::get('cancelled', 'orderController@cancelled')->name('admin.order.cancelled');
      });
+
+    //Users
+     Route::prefix('users')->group(function(){
+      Route::get('active', 'userController@active')->name('admin.users.active');
+      Route::get('blocked', 'userController@blocked')->name('admin.users.blocked');
+     });
    });
  });

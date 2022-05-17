@@ -63,6 +63,14 @@
                                         <td>$50</td>
                                         <td><span class="badge badge-primary">Pending</span></td>
                                         <td class="nowrap">13-May-2022 12:14 AM</td>
+                                        <td>
+                                            <a href="javascript:void(0)" class="btn btn-sm btn-danger">
+                                                &nbsp;<i class="fa fa-times"></i>&nbsp;
+                                            </a>
+                                            <a href="javascript:void(0)" class="btn btn-sm btn-primary">
+                                                <i class="fa fa-check"></i>
+                                            </a>
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td>3</td>
@@ -75,6 +83,14 @@
                                         <td>$50</td>
                                         <td><span class="badge badge-primary">Pending</span></td>
                                         <td class="nowrap">13-May-2022 12:14 AM</td>
+                                        <td>
+                                            <a href="javascript:void(0)" class="btn btn-sm btn-danger">
+                                                &nbsp;<i class="fa fa-times"></i>&nbsp;
+                                            </a>
+                                            <a href="javascript:void(0)" class="btn btn-sm btn-primary">
+                                                <i class="fa fa-check"></i>
+                                            </a>
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td>4</td>
@@ -87,6 +103,14 @@
                                         <td>$50</td>
                                         <td><span class="badge badge-primary">Pending</span></td>
                                         <td class="nowrap">13-May-2022 12:14 AM</td>
+                                        <td>
+                                            <a href="javascript:void(0)" class="btn btn-sm btn-danger">
+                                                &nbsp;<i class="fa fa-times"></i>&nbsp;
+                                            </a>
+                                            <a href="javascript:void(0)" class="btn btn-sm btn-primary">
+                                                <i class="fa fa-check"></i>
+                                            </a>
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td>5</td>
@@ -99,6 +123,14 @@
                                         <td>$50</td>
                                         <td><span class="badge badge-primary">Pending</span></td>
                                         <td class="nowrap">13-May-2022 12:14 AM</td>
+                                        <td>
+                                            <a href="javascript:void(0)" class="btn btn-sm btn-danger">
+                                                &nbsp;<i class="fa fa-times"></i>&nbsp;
+                                            </a>
+                                            <a href="javascript:void(0)" class="btn btn-sm btn-primary">
+                                                <i class="fa fa-check"></i>
+                                            </a>
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td>6</td>
@@ -111,6 +143,14 @@
                                         <td>$50</td>
                                         <td><span class="badge badge-primary">Pending</span></td>
                                         <td class="nowrap">13-May-2022 12:14 AM</td>
+                                        <td>
+                                            <a href="javascript:void(0)" class="btn btn-sm btn-danger">
+                                                &nbsp;<i class="fa fa-times"></i>&nbsp;
+                                            </a>
+                                            <a href="javascript:void(0)" class="btn btn-sm btn-primary">
+                                                <i class="fa fa-check"></i>
+                                            </a>
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td>7</td>
@@ -123,6 +163,14 @@
                                         <td>$50</td>
                                         <td><span class="badge badge-primary">Pending</span></td>
                                         <td class="nowrap">13-May-2022 12:14 AM</td>
+                                        <td>
+                                            <a href="javascript:void(0)" class="btn btn-sm btn-danger">
+                                                &nbsp;<i class="fa fa-times"></i>&nbsp;
+                                            </a>
+                                            <a href="javascript:void(0)" class="btn btn-sm btn-primary">
+                                                <i class="fa fa-check"></i>
+                                            </a>
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td>8</td>
@@ -135,6 +183,14 @@
                                         <td>$50</td>
                                         <td><span class="badge badge-primary">Pending</span></td>
                                         <td class="nowrap">13-May-2022 12:14 AM</td>
+                                        <td>
+                                            <a href="javascript:void(0)" class="btn btn-sm btn-danger">
+                                                &nbsp;<i class="fa fa-times"></i>&nbsp;
+                                            </a>
+                                            <a href="javascript:void(0)" class="btn btn-sm btn-primary">
+                                                <i class="fa fa-check"></i>
+                                            </a>
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td>9</td>
@@ -147,6 +203,14 @@
                                         <td>$50</td>
                                         <td><span class="badge badge-primary">Pending</span></td>
                                         <td class="nowrap">13-May-2022 12:14 AM</td>
+                                        <td>
+                                            <a href="javascript:void(0)" class="btn btn-sm btn-danger">
+                                                &nbsp;<i class="fa fa-times"></i>&nbsp;
+                                            </a>
+                                            <a href="javascript:void(0)" class="btn btn-sm btn-primary">
+                                                <i class="fa fa-check"></i>
+                                            </a>
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td>10</td>
@@ -159,6 +223,14 @@
                                         <td>$50</td>
                                         <td><span class="badge badge-primary">Pending</span></td>
                                         <td class="nowrap">13-May-2022 12:14 AM</td>
+                                        <td>
+                                            <a href="javascript:void(0)" class="btn btn-sm btn-danger">
+                                                &nbsp;<i class="fa fa-times"></i>&nbsp;
+                                            </a>
+                                            <a href="javascript:void(0)" class="btn btn-sm btn-primary">
+                                                <i class="fa fa-check"></i>
+                                            </a>
+                                        </td>
                                     </tr>
                                 </tbody>
                             </table>
