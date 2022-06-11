@@ -16,7 +16,14 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
  return view('welcome');
 });
-
+Route::get('/migrate', function(){
+    \Artisan::call('migrate');
+    dd('migrated!');
+});
+Route::get('/seeder', function(){
+    \Artisan::call('db:seed');
+    dd('seeded!');
+});
 
 // Admin Panel
  Route::prefix('admin')->namespace('admin')->group(function(){
