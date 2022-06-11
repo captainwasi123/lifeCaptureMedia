@@ -20,7 +20,7 @@ class adminAuth
         if(Auth::guard('admin')->check()){
             return $next($request);
         }else{
-            return redirect(route('admin.login'))->with('error', 'Authentication Failed.');
+            return redirect(route('admin.login'))->with('error', 'Authentication Required.');
         }
     }
 }

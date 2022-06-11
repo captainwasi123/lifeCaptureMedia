@@ -29,5 +29,6 @@
 <script src="{{URL::to('/public/admin')}}/vendors/scroll/scrollable-custom.js"></script>
 
 <!-- custom js -->
-<script src="{{URL::to('/public/admin')}}/js/custom.js"></script>
 <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="{{URL::to('/public/admin')}}/js/dev.js"></script>
+<script src="{{URL::to('/public/admin')}}/js/custom.js"></script>

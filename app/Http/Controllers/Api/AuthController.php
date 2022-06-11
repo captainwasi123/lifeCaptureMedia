@@ -59,6 +59,17 @@ class AuthController extends BaseController
         return $this->handleResponse($success, 'User successfully registered!');
     }
 
+    public function logout(){
+        $user = request()->user();
+
+        $user->tokens()->where('id', $user->currentAccessToken()->id)->delete();
+        Auth::user()->tokens->each(function($token, $key) {
+            $token->delete();
+        });
+        
+        return response()->json(['status' => 200, 'message' => 'Successfully Logged out.']);
+    }
+
 
 
 

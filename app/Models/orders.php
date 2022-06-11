@@ -6,6 +6,7 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use App\Models\orderDetails;
 use App\Models\orderShipping;
+use App\Models\User;
 
 class orders extends Model
 {
@@ -14,9 +15,12 @@ class orders extends Model
 
 
     public function detail(){
-        return $this->belongsTo(orderDetails::class, 'id', 'order_id');
+        return $this->hasMany(orderDetails::class, 'order_id', 'id');
     }
     public function shipping(){
         return $this->belongsTo(orderShipping::class, 'id', 'order_id');
+    }
+    public function buyer(){
+        return $this->belongsTo(User::class, 'buyer_id');
     }
 }

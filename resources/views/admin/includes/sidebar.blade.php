@@ -43,7 +43,16 @@
                   <li><a href="{{route('admin.users.blocked')}}">Blocked</a></li>
               </ul>
             </li>
-            <li class="mm-active">
+            <li>
+              <a href="{{route('admin.settings')}}"  aria-expanded="false">
+              <!-- <i class="fas fa-th"></i> -->
+              <div class="icon_menu">
+                  <i class="ti ti-settings"></i>
+              </div>
+                <span>Settings</span>
+              </a>
+            </li>
+            <li>
               <a href="{{route('admin.logout')}}"  aria-expanded="false">
               <!-- <i class="fas fa-th"></i> -->
               <div class="icon_menu">

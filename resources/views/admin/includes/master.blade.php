@@ -4,6 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="host" content="{{URL::to('/admin')}}">
     <title>@yield('title') | LifeCaptureMedia</title>
 
     <link rel="icon" href="{{URL::to('/public/admin')}}/img/favicon.png" type="image/png">
@@ -34,7 +35,27 @@
 </section>
 <!-- main content part end -->
 
+    @include('admin.includes.modal')
+
     @include('admin.includes.script')
     @yield('addScript')
+    @if(session()->has('error'))
+        <script type="text/javascript">
+            Swal.fire({
+              icon: 'error',
+              title: 'Alert...',
+              text: '{{ session()->get("error") }}'
+            });
+        </script>
+    @endif
+    @if(session()->has('success'))
+        <script type="text/javascript">
+            Swal.fire({
+              icon: 'success',
+              title: 'Success!',
+              text: '{{ session()->get("success") }}'
+            });
+        </script>
+    @endif
 </body>
 </html>

@@ -7,10 +7,21 @@ use Illuminate\Http\Request;
 use App\Models\userCart;
 use App\Models\userCartVideo;
 use App\Models\userAddress;
+use App\Models\generalSettings;
 use Auth;
 
 class cartController extends Controller
 {
+    public function view(){
+        $data = userCart::where('user_id', Auth::id())->with('videos', 'shipping')->first();
+        $gs = generalSettings::first();
+        if (empty($data->id)) {
+            return response()->json('Data not found', 404); 
+        }
+
+        return response()->json(['cart' => $data, 'dvd_price' => $gs->dvd_price, 'bluray_price' => $gs->bluray_price]);
+    }
+
     public function step1(Request $request){
         $data = $request->all();
 

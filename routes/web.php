@@ -34,12 +34,25 @@ Route::get('/', function () {
       Route::get('pending', 'orderController@pending')->name('admin.order.pending');
       Route::get('delivered', 'orderController@delivered')->name('admin.order.delivered');
       Route::get('cancelled', 'orderController@cancelled')->name('admin.order.cancelled');
+
+      Route::get('cancel/{id}', 'orderController@cancelOrder');
+      Route::get('deliver/{id}', 'orderController@deliverOrder');
+      Route::get('downloadMedia/{id}', 'orderController@downloadMedia');
      });
 
     //Users
      Route::prefix('users')->group(function(){
       Route::get('active', 'userController@active')->name('admin.users.active');
       Route::get('blocked', 'userController@blocked')->name('admin.users.blocked');
+
+      Route::get('block/{id}', 'userController@blockUser');
+      Route::get('active/{id}', 'userController@activeUser');
+     });
+
+    //settings
+     Route::prefix('settings')->group(function(){
+      Route::get('/', 'settingController@index')->name('admin.settings');
+      Route::post('/update', 'settingController@update')->name('admin.settings.update');
      });
    });
  });

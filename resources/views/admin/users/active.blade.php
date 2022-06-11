@@ -29,160 +29,25 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr>
-                                        <td>1</td>
-                                        <td>Anas Mojo</td>
-                                        <td>mojo@gmail.com</td>
-                                        <td>mojo.anas</td>
-                                        <td>01-01-1998</td>
-                                        <td><span class="badge badge-primary">Pending</span></td>
-                                        <td class="nowrap">13-May-2022 12:14 AM</td>
-                                        <td>
-                                            <a href="javascript:void(0)" class="btn btn-sm btn-warning">
-                                                <i class="fa fa-ban"></i>
-                                            </a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>2</td>
-                                        <td>Anas Mojo</td>
-                                        <td>mojo@gmail.com</td>
-                                        <td>mojo.anas</td>
-                                        <td>01-01-1998</td>
-                                        <td><span class="badge badge-primary">Pending</span></td>
-                                        <td class="nowrap">13-May-2022 12:14 AM</td>
-                                        <td>
-                                            <a href="javascript:void(0)" class="btn btn-sm btn-warning">
-                                                <i class="fa fa-ban"></i>
-                                            </a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>3</td>
-                                        <td>Anas Mojo</td>
-                                        <td>mojo@gmail.com</td>
-                                        <td>mojo.anas</td>
-                                        <td>01-01-1998</td>
-                                        <td><span class="badge badge-primary">Pending</span></td>
-                                        <td class="nowrap">13-May-2022 12:14 AM</td>
-                                        <td>
-                                            <a href="javascript:void(0)" class="btn btn-sm btn-warning">
-                                                <i class="fa fa-ban"></i>
-                                            </a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>4</td>
-                                        <td>Anas Mojo</td>
-                                        <td>mojo@gmail.com</td>
-                                        <td>mojo.anas</td>
-                                        <td>01-01-1998</td>
-                                        <td><span class="badge badge-primary">Pending</span></td>
-                                        <td class="nowrap">13-May-2022 12:14 AM</td>
-                                        <td>
-                                            <a href="javascript:void(0)" class="btn btn-sm btn-warning">
-                                                <i class="fa fa-ban"></i>
-                                            </a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>5</td>
-                                        <td>Anas Mojo</td>
-                                        <td>mojo@gmail.com</td>
-                                        <td>mojo.anas</td>
-                                        <td>01-01-1998</td>
-                                        <td><span class="badge badge-primary">Pending</span></td>
-                                        <td class="nowrap">13-May-2022 12:14 AM</td>
-                                        <td>
-                                            <a href="javascript:void(0)" class="btn btn-sm btn-warning">
-                                                <i class="fa fa-ban"></i>
-                                            </a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>6</td>
-                                        <td>Anas Mojo</td>
-                                        <td>mojo@gmail.com</td>
-                                        <td>mojo.anas</td>
-                                        <td>01-01-1998</td>
-                                        <td><span class="badge badge-primary">Pending</span></td>
-                                        <td class="nowrap">13-May-2022 12:14 AM</td>
-                                        <td>
-                                            <a href="javascript:void(0)" class="btn btn-sm btn-warning">
-                                                <i class="fa fa-ban"></i>
-                                            </a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>7</td>
-                                        <td>Anas Mojo</td>
-                                        <td>mojo@gmail.com</td>
-                                        <td>mojo.anas</td>
-                                        <td>01-01-1998</td>
-                                        <td><span class="badge badge-primary">Pending</span></td>
-                                        <td class="nowrap">13-May-2022 12:14 AM</td>
-                                        <td>
-                                            <a href="javascript:void(0)" class="btn btn-sm btn-warning">
-                                                <i class="fa fa-ban"></i>
-                                            </a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>8</td>
-                                        <td>Anas Mojo</td>
-                                        <td>mojo@gmail.com</td>
-                                        <td>mojo.anas</td>
-                                        <td>01-01-1998</td>
-                                        <td><span class="badge badge-primary">Pending</span></td>
-                                        <td class="nowrap">13-May-2022 12:14 AM</td>
-                                        <td>
-                                            <a href="javascript:void(0)" class="btn btn-sm btn-warning">
-                                                <i class="fa fa-ban"></i>
-                                            </a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>9</td>
-                                        <td>Anas Mojo</td>
-                                        <td>mojo@gmail.com</td>
-                                        <td>mojo.anas</td>
-                                        <td>01-01-1998</td>
-                                        <td><span class="badge badge-primary">Pending</span></td>
-                                        <td class="nowrap">13-May-2022 12:14 AM</td>
-                                        <td>
-                                            <a href="javascript:void(0)" class="btn btn-sm btn-warning">
-                                                <i class="fa fa-ban"></i>
-                                            </a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>10</td>
-                                        <td>Anas Mojo</td>
-                                        <td>mojo@gmail.com</td>
-                                        <td>mojo.anas</td>
-                                        <td>01-01-1998</td>
-                                        <td><span class="badge badge-primary">Pending</span></td>
-                                        <td class="nowrap">13-May-2022 12:14 AM</td>
-                                        <td>
-                                            <a href="javascript:void(0)" class="btn btn-sm btn-warning">
-                                                <i class="fa fa-ban"></i>
-                                            </a>
-                                        </td>
-                                    </tr>
+                                    @foreach($users as $key => $val)
+                                        <tr>
+                                            <td>{{++$key}}</td>
+                                            <td>{{$val->firstname.' '.$val->lastname}}</td>
+                                            <td>{{$val->email}}</td>
+                                            <td>{{$val->username}}</td>
+                                            <td>{{date('d-M-Y', strtotime($val->dob))}}</td>
+                                            <td><span class="badge badge-primary">Active</span></td>
+                                            <td class="nowrap">{{date('d-M-Y h:i A', strtotime($val->created_at))}}</td>
+                                            <td>
+                                                <a href="javascript:void(0)" class="btn btn-sm btn-warning blockUser" data-id="{{base64_encode($val->id)}}">
+                                                    <i class="fa fa-ban"></i>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                    @endforeach
                                 </tbody>
                             </table>
-                            <div class="dataTables_paginate">
-                                <a class="paginate_button disabled">
-                                    <i class="ti-arrow-left"></i>
-                                </a>
-                                <span>
-                                    <a class="paginate_button current">1</a>
-                                    <a class="paginate_button ">2</a>
-                                </span>
-                                <a class="paginate_button">
-                                    <i class="ti-arrow-right"></i>
-                                </a>
-                            </div>
+                            {{$users->links()}}
                         </div>
                     </div>
                 </div>

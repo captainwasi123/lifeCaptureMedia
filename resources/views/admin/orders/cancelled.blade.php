@@ -25,146 +25,40 @@
                                         <th scope="col">DVD</th>
                                         <th scope="col">Blu-ray</th>
                                         <th scope="col">Download</th>
+                                        <th scope="col">Shipping Addr.</th>
                                         <th scope="col">Total Amount</th>
                                         <th scope="col">Status</th>
                                         <th scope="col">Order at</th>
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr>
-                                        <td>1</td>
-                                        <td>Anas Mojo</td>
-                                        <td>mojo@gmail.com</td>
-                                        <td>Memories</td>
-                                        <td>2</td>
-                                        <td>4</td>
-                                        <td><a href="#"><i class="fa fa-download"></i></a></td>
-                                        <td>$50</td>
-                                        <td><span class="badge badge-danger">Cancelled</span></td>
-                                        <td class="nowrap">13-May-2022 12:14 AM</td>
-                                    </tr>
-                                    <tr>
-                                        <td>2</td>
-                                        <td>Anas Mojo</td>
-                                        <td>mojo@gmail.com</td>
-                                        <td>Memories</td>
-                                        <td>2</td>
-                                        <td>4</td>
-                                        <td><a href="#"><i class="fa fa-download"></i></a></td>
-                                        <td>$50</td>
-                                        <td><span class="badge badge-danger">Cancelled</span></td>
-                                        <td class="nowrap">13-May-2022 12:14 AM</td>
-                                    </tr>
-                                    <tr>
-                                        <td>3</td>
-                                        <td>Anas Mojo</td>
-                                        <td>mojo@gmail.com</td>
-                                        <td>Memories</td>
-                                        <td>2</td>
-                                        <td>4</td>
-                                        <td><a href="#"><i class="fa fa-download"></i></a></td>
-                                        <td>$50</td>
-                                        <td><span class="badge badge-danger">Cancelled</span></td>
-                                        <td class="nowrap">13-May-2022 12:14 AM</td>
-                                    </tr>
-                                    <tr>
-                                        <td>4</td>
-                                        <td>Anas Mojo</td>
-                                        <td>mojo@gmail.com</td>
-                                        <td>Memories</td>
-                                        <td>2</td>
-                                        <td>4</td>
-                                        <td><a href="#"><i class="fa fa-download"></i></a></td>
-                                        <td>$50</td>
-                                        <td><span class="badge badge-danger">Cancelled</span></td>
-                                        <td class="nowrap">13-May-2022 12:14 AM</td>
-                                    </tr>
-                                    <tr>
-                                        <td>5</td>
-                                        <td>Anas Mojo</td>
-                                        <td>mojo@gmail.com</td>
-                                        <td>Memories</td>
-                                        <td>2</td>
-                                        <td>4</td>
-                                        <td><a href="#"><i class="fa fa-download"></i></a></td>
-                                        <td>$50</td>
-                                        <td><span class="badge badge-danger">Cancelled</span></td>
-                                        <td class="nowrap">13-May-2022 12:14 AM</td>
-                                    </tr>
-                                    <tr>
-                                        <td>6</td>
-                                        <td>Anas Mojo</td>
-                                        <td>mojo@gmail.com</td>
-                                        <td>Memories</td>
-                                        <td>2</td>
-                                        <td>4</td>
-                                        <td><a href="#"><i class="fa fa-download"></i></a></td>
-                                        <td>$50</td>
-                                        <td><span class="badge badge-danger">Cancelled</span></td>
-                                        <td class="nowrap">13-May-2022 12:14 AM</td>
-                                    </tr>
-                                    <tr>
-                                        <td>7</td>
-                                        <td>Anas Mojo</td>
-                                        <td>mojo@gmail.com</td>
-                                        <td>Memories</td>
-                                        <td>2</td>
-                                        <td>4</td>
-                                        <td><a href="#"><i class="fa fa-download"></i></a></td>
-                                        <td>$50</td>
-                                        <td><span class="badge badge-danger">Cancelled</span></td>
-                                        <td class="nowrap">13-May-2022 12:14 AM</td>
-                                    </tr>
-                                    <tr>
-                                        <td>8</td>
-                                        <td>Anas Mojo</td>
-                                        <td>mojo@gmail.com</td>
-                                        <td>Memories</td>
-                                        <td>2</td>
-                                        <td>4</td>
-                                        <td><a href="#"><i class="fa fa-download"></i></a></td>
-                                        <td>$50</td>
-                                        <td><span class="badge badge-danger">Cancelled</span></td>
-                                        <td class="nowrap">13-May-2022 12:14 AM</td>
-                                    </tr>
-                                    <tr>
-                                        <td>9</td>
-                                        <td>Anas Mojo</td>
-                                        <td>mojo@gmail.com</td>
-                                        <td>Memories</td>
-                                        <td>2</td>
-                                        <td>4</td>
-                                        <td><a href="#"><i class="fa fa-download"></i></a></td>
-                                        <td>$50</td>
-                                        <td><span class="badge badge-danger">Cancelled</span></td>
-                                        <td class="nowrap">13-May-2022 12:14 AM</td>
-                                    </tr>
-                                    <tr>
-                                        <td>10</td>
-                                        <td>Anas Mojo</td>
-                                        <td>mojo@gmail.com</td>
-                                        <td>Memories</td>
-                                        <td>2</td>
-                                        <td>4</td>
-                                        <td><a href="#"><i class="fa fa-download"></i></a></td>
-                                        <td>$50</td>
-                                        <td><span class="badge badge-danger">Cancelled</span></td>
-                                        <td class="nowrap">13-May-2022 12:14 AM</td>
-                                    </tr>
+                                    @foreach($data as $key => $val)
+                                        <tr>
+                                            <td>{{sprintf("%04d", $val->id)}}</td>
+                                            <td>{{@$val->buyer->firstname.' '.@$val->buyer->lastname}}</td>
+                                            <td>{{@$val->buyer->email}}</td>
+                                            <td>{{$val->disc_title}}</td>
+                                            <td>{{$val->no_of_dvd}}</td>
+                                            <td>{{$val->no_of_bluray}}</td>
+                                            <td><a href="javascript:void(0)" data-id="{{base64_encode($val->id)}}" class="downloadMedia btn btn-sm btn-warning"><i class="fa fa-download"></i></a></td>
+                                            <td class="nowrap">
+                                                {{@$val->shipping->address_1.' '.@$val->shipping->address_2}}
+                                                <br>
+                                                {{@$val->shipping->state.', '.@$val->shipping->city.', '.@$val->shipping->zipcode}}
+                                            </td>
+                                            <td>${{number_format($val->total_price, 2)}}</td>
+                                            <td><span class="badge badge-danger">Cancelled</span></td>
+                                            <td class="nowrap">{{date('d-M-Y h:i A', strtotime($val->created_at))}}</td>
+                                        </tr>
+                                    @endforeach
+                                    @if(count($data) == 0)
+                                        <tr>
+                                            <td colspan="10">No Data Found.</td>
+                                        </tr>
+                                    @endif
                                 </tbody>
                             </table>
-                            <div class="dataTables_paginate">
-                                <a class="paginate_button disabled">
-                                    <i class="ti-arrow-left"></i>
-                                </a>
-                                <span>
-                                    <a class="paginate_button current">1</a>
-                                    <a class="paginate_button ">2</a>
-                                </span>
-                                <a class="paginate_button">
-                                    <i class="ti-arrow-right"></i>
-                                </a>
-                            </div>
+                            {{$data->links()}}
                         </div>
                     </div>
                 </div>

@@ -1,9 +1,9 @@
 .profile_info .profile_info_iner .profile_author_name {
     padding: 10px 10px !important;
-    background: #a51e22 !important;
+    background: #003970 !important;
 }
 .profile_info .profile_info_iner::before {
-    border-color: transparent transparent #a51e22 transparent;
+    border-color: transparent transparent #003970 transparent;
 }
 .profile_info .profile_info_iner h5 {
     font-size: 18px !important;
@@ -78,4 +78,7 @@
 }
 .btn-warning {
     color: #000 !important;
+}
+.btn-group-sm>.btn, .btn-sm {
+    padding: 5px 5px !important;
 }
