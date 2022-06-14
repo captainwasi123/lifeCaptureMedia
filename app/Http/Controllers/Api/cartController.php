@@ -29,6 +29,7 @@ class cartController extends Controller
             return response()->json('Invalid Parameters', 500); 
         }
 
+        $gs = generalSettings::first();
         $c = userCart::where('user_id', Auth::id())->first();
         if(empty($c->id)){
             $c = new userCart;
@@ -36,6 +37,7 @@ class cartController extends Controller
         }
         $c->no_of_dvd = $data['dvd'];
         $c->no_of_bluray = $data['bluray'];
+        $c->total_price = ($data['dvd']*$gs->dvd_price)+($data['bluray_price']*$gs->bluray_price)
         $c->save();
 
         return response()->json(['status' => 200, 'message' => 'Step Successfully Proccessed.']);
