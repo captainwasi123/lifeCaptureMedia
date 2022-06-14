@@ -37,7 +37,7 @@ class cartController extends Controller
         }
         $c->no_of_dvd = $data['dvd'];
         $c->no_of_bluray = $data['bluray'];
-        $c->total_price = ($data['dvd']*$gs->dvd_price)+($data['bluray']*$gs->bluray_price)
+        $c->total_price = ($data['dvd']*$gs->dvd_price)+($data['bluray']*$gs->bluray_price);
         $c->save();
 
         return response()->json(['status' => 200, 'message' => 'Step Successfully Proccessed.']);
