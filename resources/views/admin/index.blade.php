@@ -34,7 +34,7 @@
                                             <div class="tipWrap">
                                                 <span class="tip"></span>
                                             </div>
-                                            <span class="fill" data-percentage="{{($pending_orders/$total_orders)*100}}"></span>
+                                            <span class="fill" data-percentage=""></span>
                                         </div>
                                     </div>
                                     <!-- single_quick_activity  -->
@@ -62,7 +62,7 @@
                                             <div class="tipWrap">
                                                 <span class="tip"></span>
                                             </div>
-                                            <span class="fill" data-percentage="{{($active_users/$total_users)*100}}"></span>
+                                            <span class="fill" data-percentage=""></span>
                                         </div>
                                     </div>
                                 </div>
